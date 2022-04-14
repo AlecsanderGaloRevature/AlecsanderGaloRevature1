@@ -1,0 +1,24 @@
+"Summer Camp" Logic Puzzle
+
+General: Activities given are cook, kayak, rock climb, and zip-line. 
+
+Parameters, or P:
+P#1: Abigail's favorite activity isn't rock climbing.
+P#2: Oliver is afraid of heights.
+P#3: Rosa can't do her favorite activity without a harness,
+P#4: Blake likes to keep his feet on the ground.
+
+Solution:
+
+Because Oliver is afraid of heights (P#2), his favorite activity is not rock climbing or zip-lining.
+Since Abigail also does not favor rock climbing, and Blake likes to keep his feet on the ground (P#4), Rosa is the only candidate left for rock climbing as a favorite activity. 
+Therefore, we establish Rosa's favorite as rock climbing.
+
+Since Blake likes to keep his feet grounded (P#4), and we established Oliver doesn't like zip-lining (P#2), the only candidate left for zip-lining is Abigail. 
+Therefore, we establish zip-lining as Abigail's favorite.
+
+This leaves cooking and kayaking between Blake and Oliver.
+Since Blake likes his feet on the ground (P#4), his favorite must be cooking, leaving kayaking as Oliver's favorite by elimination.
+
+Answer: Rock climbing for Rosa - Zip-lining for Abigail - Cooking for Blake - Kayaking for Oliver
+
