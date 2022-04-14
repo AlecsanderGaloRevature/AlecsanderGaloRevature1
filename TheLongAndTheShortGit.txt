@@ -1,0 +1,33 @@
+"The Long and Short of It" Logic Puzzle
+
+Parameters, or P:
+P#1: Weldon is taller than Delia but shorter than Zina
+P#2: Leisha is taller than Benito but shorter than Delia and Weldon
+P#3: Benito is not the shortest
+
+Solution:
+
+Because Leisha is taller than Benito (P#1), and Benito is not the shortest (3rd), Leisha must be taller than at least two other children.
+
+Leisha is also shorter than at least two kids (P#2), so she must be in position 3/6 or 4/6 from tallest to shortest, (1/6 being the tallest).
+
+Because Weldon is taller than Leisha (P#2), who we established is in position 3/6 or 4/6, Weldon must be in position 3/6 or 2/6, but not 1/6 because Weldon is shorter than Zina so he cannot be the tallest.
+
+Since Zina is taller than Weldon, she must be in position 2/6 or 1/6 because we established that Weldon is in position 3/6 or 2/6.
+
+Since Leisha is shorter than Weldon (P#2), Leisha is also shorter than Zina because Zina is taller than Weldon (P#1). Establishing she is shorter than Zina and considering she is also shorter than Delia and Weldon (P#2), she is now shorter than three kids, reducing her possible positions from 3/6 or 4/6, to just 4/6 because position 3/6 is only shorter than two kids.
+
+We've now established Leisha is in position 4/6. Because Leisha is shorter than Delia, Delia must be in position 3/6, 2/6, or 1/6.
+
+Delia cannot be in positions 1/6 or 2/6, because Zina and Weldon are both taller than Delia (P#1). 
+
+Therefore, Delia is in position 3/6. 
+
+Since Weldon is shorter than Zina but taller than Delia in position 3/6 (P#1), Weldon is in position 2/6 and Zina is in position 1/6 because Weldon is shorter than Zina (P#1). 
+
+This leaves positions 5/6 and 6/6 for either Benito or Charlotte.
+Since Benito is not the shortest (P#3), Charlotte must be the shortest at 6/6, leaving Benito in 5/6 by elimination.
+
+Answer, from tallest to shortest: Zina, Weldon, Delia, Leisha, Benito, Charlotte 
+
+
