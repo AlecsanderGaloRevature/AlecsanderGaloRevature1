@@ -1,0 +1,24 @@
+"Presidents Day" Logic Puzzle
+
+General Rules (GR): George, William, John, Abe, and Millard have their birthdays on consecutive days, all between Monday and Friday.
+
+Parameters, or P:
+P#1: George’s birthday is as many days before Millard’s and William’s is after Abe’s.
+P#2: John is two days older than Abe.
+P#3: Millard’s birthday is on Thursday.
+
+Solution:
+
+Because John's birthday falls two days before Abe's (P#2), his birthday must be on a Mon, Tue, or Wed; John's birthday being on Thurs or Fri would not allow for Abe to be two days older and still fall between Mon-Fri, which is a constraint established in GR.
+
+Tuesday for John can additionally be ruled out as we wouldn't be able to fulfill P#2, which would assume Abe's birthday 2 days later on Thursday, because P#3 says Thursday beloings to Millards birthday. This constraint leaves Mon or Wed as possible for John's birthday.
+
+We can also eliminate Wednesday as a possibility for John's birthday, which just leaves Monday, if we consider the following argument: Postulate that John's birthday is Wednesday, then Abe's birthday would be Friday (P#2). However, this would violate P#1, which states that William's birthday is after Abe's; this would be impossible with Abe's birthday placed on Friday, therefore disallowing the possibility of John's birthday being Wednesday.
+Therefore, John's birthday must be Monday.
+
+Given P#2, Abe's birthday must fall on Wednesday since John's falls on Monday.
+Since Millard's birthday is on Thursday (P#3), this leaves only Tuesday and Friday for either George or William. 
+Since George's birthday is before Millard's and William's is after Abe's (#1), George's must be on Tuesday and William's must be on Friday.
+
+Answer: Monday for John - Tuesday for George - Wednesday for Abe - Thursday for Millard - Friday for William
+
