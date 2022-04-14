@@ -1,0 +1,29 @@
+"The Good Life" Logic Puzzle
+
+General Rule (GR): Ginger, Nutmeg, and Pepper are dogs named after spices. Bear and Saber are not. Each dog is only doing one of the following: Getting its ears scratched, playing catch, taking a nap, burying a chew toy, and going for a walk. 
+
+Parameters, or P:
+P#1: Pepper is either playing catch or burying a chew toy
+P#2: Neither Ginger nor Saber nor Bear is on a walk
+P#3: One of the dogs named after a spice is getting its ears scratched
+P#4: A dog not named for a spice is playing catch
+P#5: Bear is getting some exercise
+
+Solution:
+
+Ginger, Saber, nor Bear is on a walk (P#2), so only Nutmeg or Pepper are possibly walking.
+Pepper is either playing catch or burying a chew toy (P#1), so only Nutmeg is left as a candidate for walking.
+Therefore, Nutmeg is on a walk.
+
+Because one of the dogs named after a spice (Ginger, Pepper, or Nutmeg) is getting its ears scratched (P#3), and pepper is either playing catch or burying a toy (P#1), and we established Nutmeg is on a walk, Ginger must be getting its ears scratched as it is the only spice-named dog left as a candidate.
+
+Since a dog not named after a spice is playing catch (P#4), and Pepper is said to either be playing catch or burying a chew toy (P#1), it is ruled out that Pepper could be playing catch.
+Therefore, Pepper is burying a chew toy.
+
+Since bear is getting some exercise (P#5), bear is either walking, playing catch or burying a toy. 
+Since we established that Nutmeg is walking, and Pepper is burying a toy, Bear must be playing catch as it is the only option left that is exercise. 
+
+This leaves Saber taking a nap by elimination.
+
+Answer: Nutmeg is on a walk, Ginger is getting scratched, Pepper is burying a toy, Bear is playing catch, and Saber is taking a nap.
+
